@@ -9,7 +9,9 @@ To deploy Express app on render
   4. start instructions `npm start`
 
 Change `index.js` file to reflect current PORT from environmental variabl
+``javascrip
 `const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
-})`
+})
+```
